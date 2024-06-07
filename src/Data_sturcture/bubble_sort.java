@@ -4,7 +4,7 @@
 
 
 
-
+                public static void main(String[] args) {
             /*
             #include <stdio.h>
 
@@ -39,4 +39,4 @@
                 return 0;
 
             }*/
-        }
+        }}
