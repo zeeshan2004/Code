@@ -13,7 +13,7 @@ class Contact {
  class PhoneDirectory {
      private static final int MAX_CONTACTS = 100;
     private static ArrayList<Contact> phoneDirectory = new ArrayList<>();
-    private static Scanner scanner = new Scanner(System.in);
+        private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         char choice;
@@ -27,10 +27,10 @@ class Contact {
             System.out.println("5. Display Directory");
             System.out.println("6. Quit");
             System.out.print("Enter your choice: ");
-            choice = scanner.next().charAt(0);
-            scanner.nextLine(); // Consume newline
+                choice = scanner.next().charAt(0);
+                scanner.nextLine(); // Consume newline
 
-            switch (choice) {
+                switch (choice) {
                 case '1':
                     addContact();
                     break;
