@@ -10,6 +10,9 @@ class bach1 extends Baap {
     void mano() {
         System.out.println("Agree");
     }
+
+    /*public void bolo() {
+    }*/
 }
 
 class bach2 extends Baap {
@@ -21,11 +24,13 @@ class bach2 extends Baap {
 public class Hierarchial_Inheritance_pratice {
     public static void main(String[] args) {
 
+
         bach1 obj = new bach1();
         System.out.println("Hierarchhial level Inheritance");
 
         obj.mano();
         obj.bolo();
+
     }
 }
 

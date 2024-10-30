@@ -20,6 +20,6 @@ class MainBusiness extends SideBusiness{
 public class Multi_level_inhert {
     public static void main(String arg[]){
         MainBusiness obj = new MainBusiness();
-        obj.area();     //MainBusiness call the uper class mehtode with the help of inheritance
+        obj.Side();     //MainBusiness call the uper class mehtode with the help of inheritance
     }
 }

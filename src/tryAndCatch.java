@@ -16,7 +16,7 @@ public class tryAndCatch {
             a = a * b;
             c = a + c;
             System.out.println("the result " + c);
-        } catch (Exception Z) {
+        } catch (Exception K) {
             System.out.println("Something was wrong");
         } finally {
             System.out.println("The END : )");
